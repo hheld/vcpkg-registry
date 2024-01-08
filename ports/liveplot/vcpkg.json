@@ -1,20 +1,21 @@
 {
-    "name": "liveplot",
-    "version": "0.0.2",
-    "description": "Plot 2D data over time",
-    "homepage": "https://github.com/hheld/LivePlot",
-    "license": "MIT",
-    "dependencies": [
-        "spdlog",
-        "cppzmq",
-        "nlohmann-json",
-        {
-            "name": "vcpkg-cmake",
-            "host": true
-        },
-        {
-            "name": "vcpkg-cmake-config",
-            "host": true
-        }
-    ]
+  "name": "liveplot",
+  "version": "0.0.2",
+  "port-version": 1,
+  "description": "Plot 2D data over time",
+  "homepage": "https://github.com/hheld/LivePlot",
+  "license": "MIT",
+  "dependencies": [
+    "cppzmq",
+    "nlohmann-json",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }
