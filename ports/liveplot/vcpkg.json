@@ -1,6 +1,6 @@
 {
     "name": "liveplot",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Plot 2D data over time",
     "homepage": "https://github.com/hheld/LivePlot",
     "license": "MIT",
