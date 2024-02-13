@@ -3,6 +3,10 @@
     "liveplot": {
       "baseline": "0.0.2",
       "port-version": 1
+    },
+    "sundials": {
+      "baseline": "6.7.0",
+      "port-version": 0
     }
   }
 }
